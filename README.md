@@ -1,12 +1,35 @@
 # CleanSweep 🧹
 
-Ein Tool, das verwaiste Programm-Ordner unter Windows findet, um Speicherplatz
-freizugeben. **Dein erstes Python-Projekt.**
+**Kostenloses Windows-Tool zum Freigeben von Speicherplatz.** CleanSweep findet
+verwaiste Programm-Reste, große ungenutzte Dateien, Temp- und Cache-Dateien,
+Windows-Update-Reste und mehr – und entfernt sie **sicher** (in den Papierkorb,
+umkehrbar). Mit Dark Mode, sechs Sprachen und einem Beginner-/Expert-Modus.
 
-> **Aktueller Stand: Phase 2 — Analyse + sicheres Löschen.**
-> Standardmäßig liest das Tool nur (Analyse). Löschen passiert **nur** im
-> ausdrücklichen `--delete`-Modus, **nur in den Papierkorb** (umkehrbar),
-> mit Vorschau und Bestätigung.
+![CleanSweep](docs/screenshot.png)
+
+## Funktionen
+
+- 🔍 **Verwaiste Programm-Ordner** finden (Reste unsauberer Deinstallationen)
+- 📁 **Große, lange ungenutzte Dateien** aufspüren (Filter: seit X Monaten ungenutzt)
+- 🧽 **Temp-Dateien, App-/Browser-Caches, Windows-Update-Cache, `Windows.old`**
+- 🪟 **WinSxS-Komponentenspeicher** (DISM), **Papierkorb leeren**, **Ruhezustand** abschalten
+- ♻️ **Sicheres Löschen** in den Papierkorb + Schutzlisten für System-Ordner
+- 🌍 **6 Sprachen** (DE · EN · FR · ES · PL · UK), Dark Mode, Beginner/Expert
+- 💾 **Installer** (ohne Python-Installation nötig)
+
+## Was wird gelöscht – und was nicht
+
+CleanSweep ist auf **Sicherheit** ausgelegt:
+
+- **Du entscheidest immer.** Es wird nichts ohne deine Auswahl + Bestätigung gelöscht.
+- **Verwaiste Ordner & große Dateien** wandern in den **Papierkorb** – jederzeit
+  wiederherstellbar.
+- **Temp-/Cache-/Update-Reste** werden endgültig gelöscht (es sind Wegwerf-Daten,
+  die Windows/Apps neu anlegen) – nur so wird der Platz wirklich frei.
+- **System-Ordner sind geschützt** (mehrere Schutzlisten) und werden selbst dann
+  nicht gelöscht, wenn man sie versehentlich auswählt.
+- **Aktiv genutzte Programme** werden anhand des „zuletzt genutzt"-Datums erkannt
+  und nicht vorgeschlagen.
 
 ## Idee
 

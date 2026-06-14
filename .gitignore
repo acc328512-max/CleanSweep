@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# PyInstaller / Inno Setup Build-Artefakte
+/build/
+/installer/dist/
+/installer/out/
+
+# Lauf-/Log-Dateien
+cleansweep_loeschungen.log

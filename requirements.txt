@@ -1,0 +1,6 @@
+# Laufzeit-Abhaengigkeit von CleanSweep (zum Ausfuehren):
+Send2Trash>=1.8
+
+# Nur zum BAUEN des Installers noetig (nicht zum Ausfuehren):
+#   pyinstaller
+#   pillow

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>cleansweep</id>
+    <version>1.0.0</version>
+    <packageSourceUrl>https://github.com/acc328512-max/CleanSweep</packageSourceUrl>
+    <owners>acc328512-max</owners>
+    <title>CleanSweep</title>
+    <authors>Alexander Cross</authors>
+    <projectUrl>https://github.com/acc328512-max/CleanSweep</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/acc328512-max/CleanSweep/master/installer/cleansweep.ico</iconUrl>
+    <licenseUrl>https://github.com/acc328512-max/CleanSweep/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/acc328512-max/CleanSweep</projectSourceUrl>
+    <docsUrl>https://github.com/acc328512-max/CleanSweep/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/acc328512-max/CleanSweep/issues</bugTrackerUrl>
+    <tags>cleansweep disk-cleanup cleaner disk-space free-space windows admin</tags>
+    <summary>Free Windows tool to reclaim disk space (orphaned program leftovers, large files, caches, Windows.old and more).</summary>
+    <description>
+CleanSweep is a free, multilingual Windows tool that frees up disk space. It finds
+orphaned program folders, large unused files, temporary files, browser and app
+caches, Windows Update leftovers, Windows.old and more, and removes them safely
+(to the Recycle Bin, reversible).
+
+Features: dark mode, six languages (DE/EN/FR/ES/PL/UK), Beginner/Expert mode,
+protection lists for system folders, "last used" detection to spare active apps.
+    </description>
+    <releaseNotes>https://github.com/acc328512-max/CleanSweep/releases/tag/v1.0</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

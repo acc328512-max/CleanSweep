@@ -1,0 +1,30 @@
+{
+    "version": "1.0",
+    "description": "Kostenloses Windows-Tool zum Freigeben von Speicherplatz (verwaiste Programmreste, grosse Dateien, Caches, Windows.old u.v.m.). Mehrsprachig, Dark Mode.",
+    "homepage": "https://github.com/acc328512-max/CleanSweep",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/acc328512-max/CleanSweep/releases/download/v1.0/CleanSweep-Setup.exe",
+            "hash": "212fb041329e738a2a3ed5334470fe3813a32606c01fb3a53700b7c52d40afed"
+        }
+    },
+    "innosetup": true,
+    "bin": "CleanSweep.exe",
+    "shortcuts": [
+        [
+            "CleanSweep.exe",
+            "CleanSweep"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/acc328512-max/CleanSweep"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/acc328512-max/CleanSweep/releases/download/v$version/CleanSweep-Setup.exe"
+            }
+        }
+    }
+}
